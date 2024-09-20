@@ -1,0 +1,161 @@
+.HomePage {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;                                                    
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.HomePage-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomePage-name-input,
+.HomePage-name-mobile,
+.homePage-name-email {
+  margin-bottom: 15px;
+  position: relative; 
+}
+
+.homePage-input {
+  width: 95%; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+span {
+  display: block;
+  height: 20px; 
+  color: red;
+  font-size: 14px;
+  margin-top: 5px; 
+}
+
+.homePage-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.homePage-clear,
+.homePage-next {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.homePage-clear {
+  background-color: #6c757d;
+  color: white;
+}
+
+.homePage-next {
+  background-color: #007bff; 
+  color: white;
+}
+
+.homePage-clear:hover,
+.homePage-next:hover {
+  opacity: 0.9;
+}
+
+.homePage-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+  
+
+/* -------------------------------------------------- */
+
+
+
+
+  /* .HomePage{
+    align-items : center;
+    justify-content: center;
+    height : 55vh; 
+    width : 45vh;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  .header{
+    margin-left: 70px;
+    font-size : 20px
+  }
+  .HomePage-info{
+    margin-top : 30px;
+    margin-left : 20px;
+  }
+  .homePage-input{
+    font-size: 20px;
+    outline: none;
+    font-weight: 400;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .homePage-button{
+    text-align: right;
+    margin-right : 30px;
+    margin-top : 10px;
+    
+  }
+  .homePage-clear{
+    margin-right : 5px;
+    font-size : 15px;
+    background-color :#f0c14b;
+    border-color : #a88734 #9c7e31 #846a29;
+    cursor : pointer;
+  }
+  .homePage-next{
+    font-size : 15px;
+    background-color :#f0c14b;
+    border-color : #a88734 #9c7e31 #846a29;
+    cursor : pointer;
+  } */
+  /* .homePage-button{
+    width: 240px;
+    padding : 5px;
+    margin-top : 15px;
+    font-size : 15px;
+    border-color : #a88734 #9c7e31 #846a29;
+    background-color :#f0c14b;
+    cursor: pointer;
+  } */
+
+   
+  /* .HomePage-name-input,
+  .HomePage-name-mobile {
+    margin-bottom: 15px;
+  } */
+  
+  /* .homePage-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+
+
+
+
+
